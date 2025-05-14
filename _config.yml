@@ -249,11 +249,11 @@ swiper:
   bubble: true # 轮播图是否显示气泡,也可以打开底下的花瓣或者雪花特效 sakura（花瓣）: true snow(雪花): true
   wave: true # 轮播图底下的波浪特效
   # 当没有文章设置swiper: true时候，轮播图会显示以下default默认内容，可自行切换对应内容
-  defaultImg: 'https://pica.zhimg.com/80/v2-5251a23d9d6fd04dca785b42d5e83668_1440w.webp' # 图片，没有则随机选取
+  defaultImg: 'https://telegraph-image-ydn.pages.dev/api/rfile/happycone.png' # 图片，没有则随机选取
   defaultVideo: '' # video，min-width:992px show
   defaultVideoLoadingImg: 'https://img14.360buyimg.com/ddimg/jfs/t1/175057/18/19582/882056/60ee7ac8Ef0045710/202d2ad878684a3b.gif' # video loading img -- use .gif img, 视频预加载动画，使用gif图片作为loading，为空则视频没有预加载动画
-  defaultTile: '新春快乐！' # 标题
-  defaultDesc: ['2024', '新年快乐', '恭喜发财', '万事如意', '财源滚进', '身体健康'] #描 述，例如 ['煮酒洗净尘嚣，论知交', '万般付之一笑，共偕老']
+  defaultTile: '星光不负赶路人' # 标题
+  defaultDesc: ['2025', '新年快乐', '恭喜发财', '万事如意', '财源滚进', '身体健康'] #描 述，例如 ['煮酒洗净尘嚣，论知交', '万般付之一笑，共偕老']
   defaultLeftBtnText: '阅读文档' # 左边按钮文字, 空字符串则不显示
   defaultLeftBtnLink: 'https://hexo-theme-bamboo.netlify.app/post/hexo-theme-bamboo-new/' # 左边按钮链接 
   defaultRightBtnText: '下载主题' # 右边按钮的文字，空字符串则不显示
@@ -411,7 +411,7 @@ baiduPush: true
 # --------------------------------------------------------------------------------
 # 音乐
 music:
-  on: true
+  on: false
   autoHide: true    # hide automaticaly
   server: netease   # require music platform: netease, tencent, kugou, xiami, baidu
   type: song    # require song, playlist, album, search, artist
