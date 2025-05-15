@@ -366,8 +366,8 @@ snow:
 # --------------------------------------------------------------------------------
 # 首页花瓣飘落效果--春天
 sakura:
-  on: true
-  onlyPc: true # 设为true，只有pc端显示花瓣特效
+  on: false
+  onlyPc: false # 设为true，只有pc端显示花瓣特效
 
 # --------------------------------------------------------------------------------
 # 首页文章图片是否一左一右交错显示
@@ -688,9 +688,9 @@ color_scheme:
     link: '#fb473b'
     # 首页文章列表的背景颜色, url("http://xxx.png") or red or #000 or rgba() ..
     # postListBackground: 'rgba(255,255,255,1)'
-    postListBackground: 'url("https://img2.baidu.com/it/u=2327486799,3222487334&fm=253&fmt=auto&app=138&f=JPEG?w=281&h=499")'
+    postListBackground: 'url(https://telegraph-image-ydn.pages.dev/api/rfile/happycone.png)' #'url("https://img2.baidu.com/it/u=2327486799,3222487334&fm=253&fmt=auto&app=138&f=JPEG?w=281&h=499")'
     # 首页页面的底部背景颜色，空字符串透明('transparent')，可以是白色('#fff')等颜色, 也可以是图片，例如  'url("https://img11.360buyimg.com/ddimg/jfs/t1/169624/29/16/4603017/5fec2c79Eecbd536a/308b28b82a013cd2.png")'
-    bgFloor: 'url("https://pic4.zhimg.com/80/v2-2cc0008eafeeb8ced2a5077c74320403_1440w.webp")' # 如果是图片地址，url里面请用双引号
+    bgFloor: '' # 'url("https://pic4.zhimg.com/80/v2-2cc0008eafeeb8ced2a5077c74320403_1440w.webp")' # 如果是图片地址，url里面请用双引号
     headerMenuBackgroundColor: '' 
     # headerMenuBackgroundColor:头部导航背景颜色, 为空则使用theme主题色, 
     # headerMenuBackgroundColor写法: rgba(268, 264, 269, 0.8) or #42b983 or red or 也可以是渐变颜色 linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%)  or 也可以是url("图片地址")
