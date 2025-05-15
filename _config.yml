@@ -50,11 +50,11 @@ menu:
     icon: fas fa-edit
     children:
      - name: 主题
-       url: /post/hexo-theme-bamboo-new
+       url: https://github.com/iiiota/hexo-theme-bamboo
        icon: fas fa-cog
-     - name: 文章
-       url: /post/hexo-theme-bamboo/page/
-       icon: fas fa-list
+    #  - name: 文章
+    #    url: /post/hexo-theme-bamboo/page/
+    #    icon: fas fa-list
   更多:
    icon: fa fa-link
    children:
